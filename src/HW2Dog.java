@@ -1,5 +1,5 @@
 // homework
-public class Dog {
+public class HW2Dog {
     String name;
     String breed;
     double weight;
