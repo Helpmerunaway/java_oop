@@ -22,18 +22,19 @@ public class HW5Monster {
     }
     // перегруженный метод 1
     void voice() {
-        System.out.println("Grrrrrrrrrrrrr...");
+        voice(1);
     }
     // перегруженный метод 2
     void voice(int count) {
+        voice(count, "Grrrrrrrrrrrrr...");
         // Example: voice(3);
 
         // Output:
         // Grrrrrrrrr
         // Grrrrrrrrr
         // Grrrrrrrrr
-        for (int i = 0; i < count; i++)
-        System.out.println("Grrrrrrrrrrrrr...");
+//        for (int i = 0; i < count; i++)
+//        System.out.println("Grrrrrrrrrrrrr...");
     }
     // перегруженный метод 3
     void voice(int count, String word) {
