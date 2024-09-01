@@ -1,3 +1,7 @@
+package examples;
+
+import box.Box;
+
 public class Compare {
     public static void main(String[] args) {
         Box current = new Box(10);

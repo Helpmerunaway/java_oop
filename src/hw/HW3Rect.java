@@ -1,3 +1,5 @@
+package hw;
+
 public class HW3Rect {
     double lenght;
     double width;

@@ -1,3 +1,5 @@
+package hw;
+
 public class HW3Parameters {
     public static void main(String[] args) {
         HW3Rect figure = new HW3Rect();

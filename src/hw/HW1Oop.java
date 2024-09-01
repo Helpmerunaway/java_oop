@@ -1,3 +1,5 @@
+package hw;
+
 public class HW1Oop {
     public static void main(String[] args) {
         HW1Human eric = new HW1Human();

@@ -1,3 +1,5 @@
+package hw;
+
 public class HW5Monster {
     int eyes;
     int hands;

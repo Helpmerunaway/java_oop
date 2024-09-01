@@ -1,3 +1,5 @@
+package hw;
+
 public class HW2Methods {
     public static void main(String[] args) {
         HW2Dog dog1 = new HW2Dog();

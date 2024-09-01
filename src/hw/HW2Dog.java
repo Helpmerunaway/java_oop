@@ -1,3 +1,5 @@
+package hw;
+
 // homework
 public class HW2Dog {
     String name;

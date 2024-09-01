@@ -1,3 +1,5 @@
+package hw;
+
 public class HW4Worker {
     String name;
     String job;

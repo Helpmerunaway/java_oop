@@ -1,3 +1,7 @@
+package examples;
+
+import hw.HW5Monster;
+
 public class Monster {
     public static void main(String[] args) {
         HW5Monster monster = new HW5Monster(5);

@@ -1,3 +1,5 @@
+package hw;
+
 public class HW1Human {
     String name;
     int age;
