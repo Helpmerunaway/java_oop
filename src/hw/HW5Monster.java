@@ -15,15 +15,15 @@ public class HW5Monster {
         this.legs = legs;
     }
     // конструктор с 1 параметром
-    HW5Monster(int count) {
+    public HW5Monster(int count) {
         this(count, count, count);
     }
 
-    void showInfo() {
+    public void showInfo() {
         System.out.println("Eye: " + eyes + "\n" + "Hands: " + hands + "\n" + "Legs: " + legs);
     }
     // перегруженный метод 1
-    void voice() {
+    public void voice() {
         voice(1);
     }
     // перегруженный метод 2
@@ -39,7 +39,7 @@ public class HW5Monster {
 //        System.out.println("Grrrrrrrrrrrrr...");
     }
     // перегруженный метод 3
-    void voice(int count, String word) {
+    public void voice(int count, String word) {
         // Example: voice(2, "Aaaaaaaaa...");
 
         // Output:
